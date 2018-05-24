@@ -5,4 +5,6 @@
 * `start`  进度条的起始位置 0-100
 * `stop`   进度条的终止位置 0-100
 * `time`   进度条需要在多久内完成 毫秒为单位 1000的倍数
+
+![](https://github.com/llywll/Rainbow-progress-bar/raw/master/image/preview.png)
     _(:з」∠)_ 
