@@ -1,0 +1,100 @@
+.tokyo_hot {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -30vw;
+    margin-top: 15vh;
+    width: 60vw;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.555);
+    box-shadow: 2px 2px 200px 30px rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+}
+
+.progressBar_Box {
+    position: relative;
+    left: 50%;
+    top: 45%;
+    width: 54vw;
+    height: 1vh;
+    margin-left: -45%;
+    margin-right: -45%;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: rgba(255, 255, 255, 0.555);
+    /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.473) inset;*/
+    border-radius: 10px;
+}
+
+.progress {
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    height: 1.5vh;
+    margin-top: -0.2vh;
+    background: repeating-linear-gradient( 120deg, rgb(182, 209, 38) 0, rgb(182, 209, 38) 1vw, rgb(109, 209, 38) 0, rgb(109, 209, 38) 2vw, rgb(34, 209, 157) 0, rgb(34, 209, 157) 3vw, rgb(32, 142, 209) 0, rgb(32, 142, 209) 4vw, rgb(138, 35, 212) 0, rgb(138, 35, 212) 5vw, rgb(200, 35, 212) 0, rgb(200, 35, 212) 6vw, rgb(200, 56, 36) 0, rgb(200, 56, 36) 7vw);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.473);
+    transition: 0.1s linear;
+}
+
+.bar_text {
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    margin-top: 1vh;
+    right: 2vw;
+    width: 3.5vw;
+    height: 2.5vh;
+    font-size: 0.5vw;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.title {
+    display: block;
+    font-size: 56px;
+    color: rgba(0, 0, 0, 0.637);
+    filter: blur(1px);
+    text-align: center;
+}
+
+.con_button {
+    cursor: pointer;
+    color: rgb(218, 216, 216);
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    left: 45%;
+    padding: 8px 20px;
+    border: inherit;
+    background-color: rgb(113, 113, 113);
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.473);
+    outline: none;
+}
+
+.input_area {
+    position: relative;
+    margin-top: 5%;
+    left: 19%;
+}
+
+.con_input {
+    display: inline-block;
+    width: 20vw;
+    height: 3vh;
+}
+
+.td_btn {
+    position: relative;
+    z-index: 3;
+    width: 8px;
+    height: 8px;
+    margin-top: -4.5px;
+    margin-left: 18%;
+    background: rgb(211, 5, 5);
+    border: 5px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
