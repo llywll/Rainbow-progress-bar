@@ -87,14 +87,15 @@
 }
 
 .td_btn {
-    position: relative;
+    position: absolute;
     z-index: 3;
     width: 8px;
     height: 8px;
     margin-top: -4.5px;
     margin-left: 18%;
     background: rgb(211, 5, 5);
-    border: 5px solid white;
+    border: 6px solid white;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.1s linear;
 }
